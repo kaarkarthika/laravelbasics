@@ -40,6 +40,6 @@ class InsertController extends Controller
       'title'=>$request->title,
       'body' =>$request->body
   ]);
-  return back()->with('post_updated','Post has been updated successfully!');
+  return back()->with('post_updated','Post Has Been Updated Successfully!');
    }
 }
